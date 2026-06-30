@@ -156,8 +156,8 @@ def load_and_merge_data(feed_url, excess_url):
         return pd.DataFrame()
 
 # --- PASTE BOTH LINKS HERE ---
-FEEDING_FORM_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQfL72s5ulE9pIHhG3j4luyQ5i6oGh2ZVL0LDUPLWTM8WFfDErMAAiHNIGh3P7dyF5FA7OYZ_v5ZzxB/pub?gid=1162758496&single=true&output=csv"
-EXCESS_FORM_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQfL72s5ulE9pIHhG3j4luyQ5i6oGh2ZVL0LDUPLWTM8WFfDErMAAiHNIGh3P7dyF5FA7OYZ_v5ZzxB/pub?gid=627908006&single=true&output=csv"
+FEEDING_FORM_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRlWpVIdky1YE0zIn4YiA6GvkW2UVSnTtuNlLKdOSyYrPvSqiSpCbnBFg7sIbmYc_Ghgt1uInG9g-cG/pub?gid=1192373609&single=true&output=csv"
+EXCESS_FORM_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRlWpVIdky1YE0zIn4YiA6GvkW2UVSnTtuNlLKdOSyYrPvSqiSpCbnBFg7sIbmYc_Ghgt1uInG9g-cG/pub?gid=1224102807&single=true&output=csv"
 
 df = load_and_merge_data(FEEDING_FORM_CSV, EXCESS_FORM_CSV)
 
